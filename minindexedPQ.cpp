@@ -99,6 +99,10 @@ public:
     {
         return values[im[0]];
     }
+    int minKeyIndex()
+    {
+        return im[0];
+    }
     void pop()
     {
         remove(im[0]);
